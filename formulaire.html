@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Formulaire de Reservation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="formulaire.css">
     
 </head>
 <body>
         <nav class="containernav">
                 <ul class="menu">
-                    <li class="itemmenu"><a href="#">Titre de la page</a></li>
+                    <li class="itemmenu titre"><a href="#">Titre de la page</a></li>
                     <li class="itemmenu"><a href="#">Home</a></li>
                     <li class="itemmenu"><a href="#">Destinations</a></li>
                     <li class="itemmenu"><a href="#">Offers</a></li>
@@ -19,29 +19,29 @@
             </nav>
 
         <h1>Reservation</h1>
-        <p>Veuillez remplir ce formulaire pour pouvoir vous joindre le plus tot possible pour finaliser l'organisation de votre voyage</p>
+        <p class="paraformulaire">Veuillez remplir ce formulaire pour pouvoir vous joindre le plus tot possible pour finaliser la reservation de votre voyage</p>
 
 
-    <form method="post">
-        <div>
+    <form class="formulaire" method="post">
+        <div class="itemformulaire" >
                 <label for="name" >Nom:</label>
-                <input type="text" id="name" name="username">
+                <input type="text" placeholder="Dupont" id="name" name="username">
 
         </div>
-        <div>
+        <div class="itemformulaire" >
             <label for="prenom" >Prenom:</label>
-            <input type="text" id="prenom" name="lastname">
+            <input type="text" placeholder="Albert" id="prenom" name="lastname">
 
 
         </div>
-        <div>
+        <div class="itemformulaire">
             <label for="email">Email:</label>
-            <input type="email" placeholder="test" id="email" name="email">
+            <input type="email" placeholder="email@exemple.com" id="email" name="email">
 
         </div>
-        <div>
-            <label for="tel">Numero de portable</label>
-            <input type="tel" id="tel" name="tel">
+        <div class="itemformulaire" >
+            <label for="tel">Numéro de portable:</label>
+            <input type="tel" placeholder="+32484001122" id="tel" name="tel">
             </div>
 
             <div class="buttonsend">
@@ -55,7 +55,7 @@
             <ul class="containerfoot">
                 <li class="itemfooter"><a href="#">About us</a></li>
                 <li class="itemfooter"><a href="#">Legal</a></li>
-                <li class="itemfooter"> <img src="images/instagram.jpg" alt="photoinstagram"></li>
+                <li class="itemfooter"> <img class="insta" src="images/instagram.jpg" alt="photoinstagram"></li>
             </ul>
     </footer>
     
