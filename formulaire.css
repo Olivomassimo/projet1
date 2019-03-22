@@ -1,3 +1,4 @@
+/* Css du formulaire */
 body {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +36,7 @@ footer {
     font-weight: bold;
     
 }
-h1 {
+.titrereservation {
     margin: 15px;
     margin-left: 10px;
     padding: 0;
@@ -87,4 +88,35 @@ h1 {
 .insta {
     height:25px;
     width: 25px;
+}
+
+@media only screen and (min-width: 600px) and (max-width:900px) {
+
+   .containernav {
+       width: 100vw;
+   }
+    .menu {
+        display: flex;
+        
+    
+    }
+    .itemmenu {
+        width: 25%;
+    }
+    body {
+        position: absolute;
+    }
+    .paraformulaire {
+        width: 60vw;
+    }
+     .titrereservation {
+         margin: 50px;
+         margin-left: 5px;
+     }
+  
+
+@media only screen and (min-width: 600px) {
+    .menu {
+        display: flex;
+    }
 }
