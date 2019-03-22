@@ -1,40 +1,65 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
-.menu {
-    list-style: none;
-    font-size: 30px;
-    text-align: center;
-    background-color: #636e72;
-    padding: 0;
-    margin: 0;
+/*distribution vignettes*/
 
-    
-}
-.itemmenu {
-    border-bottom: 1px solid grey;
-    width: 100%;
-}
-
-.itemmenu a {
-    text-decoration:none; color: white;
-    font-weight: bold;
-    
-}
-.containerfoot {
-    list-style: none;
+.vignettes_parent{
+    border: 1px black solid;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin:auto;
+}
 
+.vignette_enfant{
+    position: relative;
+    width: 100%;
+    margin: 20px 10px 0 10px;
+    border-radius: 10px;
+    border: 0px solid black;
+    overflow: hidden;   
+    max-width: 300px; 
 }
-.itemfooter {
-     width: 33%;
+
+.container_image{
+    width: 100%;
+    padding-bottom:134.285%;
+    position: relative;
 }
-.itemfooter a {
-    text-decoration: none;
+
+.vignette_enfant img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.description_vignette{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+}
+
+@media screen and (min-width:550px){
+    .vignettes_parent{
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .vignette_enfant{
+        width: 48%;
+    }
+}
+
+@media screen and (min-width:900px){
+    .vignette_enfant{
+        width: 31.33%;
+    }
 }
 .insta {
     height:100%;
