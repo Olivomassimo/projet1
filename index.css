@@ -1,0 +1,131 @@
+/* Css du formulaire */
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    max-width: auto;
+    
+}
+footer {
+    position: absolute; bottom: 0; left: 0; right: 0;
+}
+.menu {
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    background-color: #636e72;
+    padding: 0;
+    margin: 0;
+
+    
+}
+.itemmenu {
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+.itemmenu:hover {
+    transform: scale(1.3);
+    transform-style: preserve-3d;
+    transition-duration: 600ms;
+}
+.titre:hover {
+    transform: scale(1);
+}
+.itemmenu a {
+    text-decoration:none; color: white;
+    font-weight: bold;
+    
+}
+.titrereservation {
+    margin: 15px;
+    margin-left: 10px;
+    padding: 0;
+}
+.paraformulaire {
+    margin:20px;
+    margin-left: 10px;
+}
+.formulaire {
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.itemformulaire {
+    display: flex;
+    justify-content: space-between;
+}
+.itemformulaire input {
+    border-radius: 5px;
+}
+.buttonsend {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.titre {
+    font-size: 35px;
+}
+
+.containerfoot {
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0;
+
+}
+.itemfooter {
+     width: 33%;
+
+}
+.itemfooter a {
+    text-decoration: none;
+    display: absolute;
+}
+.insta {
+    height:25px;
+    width: 25px;
+}
+
+@media only screen and (min-width: 600px) {
+
+   .containernav {
+       width: 100vw;
+   }
+    .menu {
+        display: flex;
+        
+    
+    }
+    .itemmenu {
+        width: 25%;
+    }
+    body {
+        position: absolute;
+    }
+    .paraformulaire {
+        width: 60vw;
+    }
+     .titrereservation {
+         margin: 50px;
+         margin-left: 5px;
+     }
+     .formulaire {
+         max-width: 500px;
+     }
+  
+
+@media only screen and (min-width: 900px) 
+{
+    .buttonsend {
+      justify-content: flex-end;
+      margin: 80px;
+    }
+
+    }
+   
+}
