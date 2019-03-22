@@ -157,7 +157,7 @@ footer {
     width: 25px;
 }
 
-@media only screen and (min-width: 600px) and (max-width:900px) {
+@media only screen and (min-width: 600px) {
 
    .containernav {
        width: 100vw;
@@ -182,8 +182,8 @@ footer {
      }
   
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
     .menu {
-        display: flex;
+        
     }
 }
