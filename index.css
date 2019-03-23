@@ -1,7 +1,6 @@
 /*distribution vignettes*/
 
 .vignettes_parent{
-    border: 1px black solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +16,16 @@
     border: 0px solid black;
     overflow: hidden;   
     max-width: 300px; 
+    /*modification transition 23032019*/
+    transition-property: all;
+    transition-duration: 90ms;
+    transition-delay: 0s;
+}
+/*a supprimer*/
+.vignette_enfant:hover {
+    max-width: 305px;
+    margin: 7px 7px 0 8px;
+    box-shadow: 7px 7px 10px black;
 }
 
 .container_image{
@@ -31,7 +40,10 @@
     position: absolute;
     top: 0;
     left: 0;
+
 }
+
+
 
 
 .description_vignette{
@@ -61,3 +73,4 @@
         width: 31.33%;
     }
 }
+
