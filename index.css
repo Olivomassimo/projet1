@@ -150,6 +150,7 @@ body {
     color: grey;
     margin-right: 200px;
     margin-left: 15px;
+    justify-content: center;
 }
 .itemmenu:hover {
     transform: scale(1.3);
@@ -176,6 +177,12 @@ body {
 .paraformulaire {
     margin:20px;
     margin-left: 10px;
+}
+.section-formualire {
+    width: 900px;
+    justify-content: center;
+    margin:0;
+    padding: 0;
 }
 .formulaire {
     margin: 40px;
@@ -260,7 +267,13 @@ footer {
         position: absolute;
     }
     .paraformulaire {
-        width: 60vw;
+        width: 300px;
+    }
+    .section-formulaire {
+        width: 350px;
+        margin:auto;
+        padding: 0;
+        justify-content: center;
     }
      .titrereservation {
          margin: 50px;
@@ -270,6 +283,22 @@ footer {
          justify-content: center;
          margin-top: 20px;
      }
+     .itemformulaire {
+        width:400px;
+    }
+    .buttonsend {
+        width: 100px;
+        display: flex;
+
+    }
+    .button {
+        width: 100%;
+        font-size: 20px; 
+        transform: translate(50%,50%)
+     }
+
+
+    }
   
 
 @media only screen and (min-width: 900px) {
@@ -282,12 +311,35 @@ footer {
     }
     .titre {
         font-weight: bold;
-        font-size: 60px;
-        font-style: arial;
+        font-size: 50px;
         margin-right: 200px;
         margin-left: 40px;
         font-family: 'Amatic SC', cursive;
         letter-spacing: 0.2em;
 
+    }
+    .itemformulaire {
+        width:300px;
+
+    }
+    .section-formulaire {
+        width: 500px;
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+    }
+    .paraformulaire {
+        width: 400px;
+    }
+    .buttonsend {
+        width: 100px;
+        display: flex;
+
+    }
+    .button {
+        width: 100%;
+        font-size: 20px;
+        transform: translate(50%, 50%)
+        
     }
 }
