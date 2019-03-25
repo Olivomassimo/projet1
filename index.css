@@ -169,12 +169,19 @@ body {
     align-items: center;
     padding: 0;
     margin: 0;
-    background-image: url(images/photoheader.jpg);
     width: 100vw;
-    height: 100%;
+    height: 20vh;
     background-size: 100%;
     background-position: 100%;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    background-color: #2d3436;
+
+
+    
+
+>>>>>>> header
     
 }
 .itemmenu {
@@ -292,7 +299,7 @@ footer {
    }
     .menu {
         display: flex;
-        height: 20vh;
+        height: 17vh;
         
     
     }
@@ -355,7 +362,7 @@ footer {
 @media only screen and (min-width: 900px) {
     .menu {
 
-        height: 278px;
+        height: 17vh;
         background-size: 100%;
         font-size: 35px;
         
