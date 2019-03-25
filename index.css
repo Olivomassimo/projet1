@@ -20,7 +20,14 @@ footer {
 
     
 }
-.itemmenu {
+.sousmenu {
+    display: none;
+
+}
+
+
+.itemmenu
+ {
     border-bottom: 1px solid grey;
     width: 100%;
 }
@@ -125,9 +132,13 @@ footer {
 {
     .buttonsend {
       justify-content: flex-end;
-      margin: 80px;
+      justify-items: flex-end;
+      margin: 90px;
+      transform: translate(50%, 50%);
     }
+button {
 
+}
     }
     .containerfoot {
         align-items: center;
