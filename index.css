@@ -119,11 +119,10 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
     
 }
-footer {
-    position: absolute; bottom: 0; left: 0; right: 0;
-}
+
 .menu {
     list-style: none;
     font-size: 25px;
@@ -138,10 +137,6 @@ footer {
     background-size: 100%;
     background-position: 100%;
     margin-bottom: 20px;
-
-
-    
-
     
 }
 .itemmenu {
@@ -152,8 +147,9 @@ footer {
 
 }
 .titre {
-    margin-left:auto;
     color: grey;
+    margin-right: 200px;
+    margin-left: 15px;
 }
 .itemmenu:hover {
     transform: scale(1.3);
@@ -204,22 +200,34 @@ footer {
     font-size: 35px;
 }
 
+footer {
+   
+}
+
 .containerfoot {
-    position: relative;
+    width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: center;
+    background-color: rgba(45, 52, 54,1.0);
     margin: 0;
+    margin-top: 15px;
+    height: 100px;
+    
 
 }
 .itemfooter {
      width: 33%;
 
 }
+.photoinsta {
+    width: 100%
+
+}
 .itemfooter a {
     text-decoration: none;
     display: absolute;
+    color: white;
 }
 .insta {
     height:25px;
@@ -244,7 +252,10 @@ footer {
     }
     .titre {
         font-size: 30px;
+        margin-right: 70px;
+        font-family: 'Amatic SC', cursive;
     }
+
     body {
         position: absolute;
     }
@@ -254,6 +265,10 @@ footer {
      .titrereservation {
          margin: 50px;
          margin-left: 5px;
+     }
+     .containerfoot {
+         justify-content: center;
+         margin-top: 20px;
      }
   
 
@@ -267,8 +282,12 @@ footer {
     }
     .titre {
         font-weight: bold;
-        font-size: 40px;
+        font-size: 60px;
         font-style: arial;
+        margin-right: 200px;
+        margin-left: 40px;
+        font-family: 'Amatic SC', cursive;
+        letter-spacing: 0.2em;
 
     }
 }
