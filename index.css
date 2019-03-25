@@ -71,6 +71,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
     
 }
 footer {
@@ -78,22 +79,41 @@ footer {
 }
 .menu {
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    background-color: #636e72;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
+    background-image: url(images/photoheader.jpg);
+    width: 100vw;
+    height: 100%;
+    background-size: 100%;
+    background-position: 100%;
+
+
+    
 
     
 }
 .itemmenu {
-    border-bottom: 1px solid grey;
     width: 100%;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+.titre {
+    margin-left:auto;
+    color: grey;
 }
 .itemmenu:hover {
     transform: scale(1.3);
     transform-style: preserve-3d;
     transition-duration: 600ms;
+}
+.itemmenu:hover a {
+
 }
 .titre:hover {
     transform: scale(1);
@@ -101,6 +121,7 @@ footer {
 .itemmenu a {
     text-decoration:none; color: white;
     font-weight: bold;
+
     
 }
 .titrereservation {
@@ -157,18 +178,24 @@ footer {
     width: 25px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
 
    .containernav {
        width: 100vw;
    }
     .menu {
         display: flex;
+        height: 20vh;
         
     
     }
     .itemmenu {
         width: 25%;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .titre {
+        font-size: 30px;
     }
     body {
         position: absolute;
@@ -184,6 +211,16 @@ footer {
 
 @media only screen and (min-width: 900px) {
     .menu {
+
+        height: 278px;
+        background-size: 100%;
+        font-size: 35px;
         
+    }
+    .titre {
+        font-weight: bold;
+        font-size: 40px;
+        font-style: arial;
+
     }
 }
