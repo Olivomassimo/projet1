@@ -1,0 +1,44 @@
+.vaccance-image{ 
+    background-image: url(./Kazaden.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+    
+
+}
+
+.contenu-vaccanse{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.prix-vaccance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #2d3436;
+}
+.bouton-vaccance{
+    display: block;
+    height: 100%;
+    padding: 20px 40px;
+    margin-right: 10px;
+    color: #dfe6e9;
+    background-color: #d63031;
+}
+
+.iconne-t{
+    fill: #2d3436;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+.prix-bouton{
+    padding-left: 10px;
+}
