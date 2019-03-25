@@ -1,6 +1,6 @@
 .vaccance-image{ 
     background-image: url(./Kazaden.jpg);
-    height: 40vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -28,6 +28,14 @@
     margin-right: 10px;
     color: #dfe6e9;
     background-color: #d63031;
+    
+}
+
+.bouton-vaccance a {
+    text-decoration: none;
+    color: black
+
+
 }
 
 .iconne-t{
