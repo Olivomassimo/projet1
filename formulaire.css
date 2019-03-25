@@ -1,0 +1,51 @@
+
+h1 {
+    margin: 15px;
+    margin-left: 10px;
+    padding: 0;
+}
+.paraformulaire {
+    margin:20px;
+    margin-left: 10px;
+}
+.formulaire {
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.itemformulaire {
+    display: flex;
+    justify-content: space-between;
+}
+.itemformulaire input {
+    border-radius: 5px;
+}
+.buttonsend {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.titre {
+    font-size: 35px;
+}
+
+
+.containerfoot {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0;
+
+}
+.itemfooter {
+     width: 33%;
+}
+.itemfooter a {
+    text-decoration: none;
+}
+.insta {
+    height:100%;
+    width: 100%;
+}
