@@ -150,6 +150,10 @@ body {
     color: grey;
     margin-right: 200px;
     margin-left: 15px;
+<<<<<<< HEAD
+=======
+    justify-content: center;
+>>>>>>> formulaire
 }
 .itemmenu:hover {
     transform: scale(1.3);
@@ -177,6 +181,15 @@ body {
     margin:20px;
     margin-left: 10px;
 }
+<<<<<<< HEAD
+=======
+.section-formualire {
+    width: 900px;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+}
+>>>>>>> formulaire
 .formulaire {
     margin: 40px;
     margin-left: 10px;
@@ -260,7 +273,17 @@ footer {
         position: absolute;
     }
     .paraformulaire {
+<<<<<<< HEAD
         width: 60vw;
+=======
+        width: 300px;
+    }
+    .section-formulaire {
+        width: 350px;
+        margin:auto;
+        padding: 0;
+        justify-content: center;
+>>>>>>> formulaire
     }
      .titrereservation {
          margin: 50px;
@@ -270,6 +293,25 @@ footer {
          justify-content: center;
          margin-top: 20px;
      }
+<<<<<<< HEAD
+=======
+     .itemformulaire {
+        width:400px;
+    }
+    .buttonsend {
+        width: 100px;
+        display: flex;
+
+    }
+    .button {
+        width: 100%;
+        font-size: 20px; 
+        transform: translate(50%,50%)
+     }
+
+
+    }
+>>>>>>> formulaire
   
 
 @media only screen and (min-width: 900px) {
@@ -282,13 +324,45 @@ footer {
     }
     .titre {
         font-weight: bold;
+<<<<<<< HEAD
         font-size: 60px;
         font-style: arial;
+=======
+        font-size: 50px;
+>>>>>>> formulaire
         margin-right: 200px;
         margin-left: 40px;
         font-family: 'Amatic SC', cursive;
         letter-spacing: 0.2em;
 
     }
+<<<<<<< HEAD
 }
 
+=======
+    .itemformulaire {
+        width:300px;
+
+    }
+    .section-formulaire {
+        width: 500px;
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+    }
+    .paraformulaire {
+        width: 400px;
+    }
+    .buttonsend {
+        width: 100px;
+        display: flex;
+
+    }
+    .button {
+        width: 100%;
+        font-size: 20px;
+        transform: translate(50%, 50%)
+        
+    }
+}
+>>>>>>> formulaire
