@@ -3,8 +3,13 @@ h1, h2, h3, .titre{
     
 }
 .vaccance-image{ 
+<<<<<<< HEAD
     background-image: url(./images/photo-awaii.jpeg);
     height: 80vh;
+=======
+    background-image: url(./images/awaii4.jpeg);
+    height: 60vh;
+>>>>>>> page2
     width: 100%;
     background-size: cover;
     background-position: center center;
