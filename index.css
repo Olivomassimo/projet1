@@ -3,8 +3,8 @@ h1, h2, h3, .titre{
     
 }
 .vaccance-image{ 
-    background-image: url(./images/photo-awaii.jpeg);
-    height: 80vh;
+    background-image: url(./images/awaii4.jpeg);
+    height: 60vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -59,7 +59,7 @@ h1, h2, h3, .titre{
     border-radius: 10px;
     height: 50px;
     padding: 15px 5px;
-    margin: auto;
+    margin: 20px auto 0 auto;
     text-align: center;
     font-size: 1.5em;
     background-color: rgba(116, 185, 255,1.0);
