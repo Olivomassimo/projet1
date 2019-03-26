@@ -1,5 +1,9 @@
+h1, h2, h3, .titre{
+    font-family: 'Playfair Display', serif;
+    
+}
 .vaccance-image{ 
-    background-image: url(./Kazaden.jpg);
+    background-image: url(./images/photo-awaii.jpeg);
     height: 80vh;
     width: 100%;
     background-size: cover;
@@ -161,12 +165,10 @@
 /* Css du formulaire */
 body {
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Muli', sans-serif;
     margin: 0;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f6f6f6;
-    
+    background-color: #f6f6f6;   
 }
 
 .menu {
@@ -314,7 +316,7 @@ footer {
     .titre {
         font-size: 30px;
         margin-right: 70px;
-        font-family: 'Amatic SC', cursive;
+        
     }
 
     body {
@@ -368,7 +370,6 @@ footer {
         font-size: 50px;
         margin-right: 200px;
         margin-left: 40px;
-        font-family: 'Amatic SC', cursive;
         letter-spacing: 0.2em;
 
     }
