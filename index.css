@@ -185,6 +185,8 @@ body {
     background-size: 100%;
     background-position: 100%;
     background-color: #2d3436;
+    padding-left: 15px;
+    box-sizing: border-box;
 
 
     
@@ -200,8 +202,6 @@ body {
 }
 .titre {
     color: grey;
-    margin-right: 200px;
-    margin-left: 15px;
     justify-content: center;
 }
 .itemmenu:hover {
@@ -235,11 +235,10 @@ body {
     width: 220px;
     margin: auto;
 }
-.section-formualire {
-    width: 900px;
-    justify-content: center;
-    margin:0;
-    padding: 0;
+.section-formulaire {
+    max-width: 900px;
+    margin-top: 30px;
+
 }
 .formulaire {
     display: flex;
@@ -268,10 +267,6 @@ button{
     font-size: 35px;
 }
 
-footer {
-   
-}
-
 .containerfoot {
     width: 100%;
     list-style: none;
@@ -283,6 +278,8 @@ footer {
     height: 100px;
     position: absolute;
     bottom: 0;
+    padding: 0;
+    text-align: center;
     
 
 }
@@ -299,7 +296,6 @@ footer {
 }
 .itemfooter a {
     text-decoration: none;
-    display: absolute;
     color: white;
 }
 .insta {
@@ -360,7 +356,6 @@ footer {
 
     .button {
         font-size: 20px; 
-        transform: translate(50%,50%)
         margin: 30px auto;
      }
 
@@ -372,7 +367,7 @@ footer {
     }
   
 
-@media only screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
     .menu {
 
         height: 17vh;
@@ -402,7 +397,7 @@ footer {
     .section-formulaire {
         width: 500px;
         margin: auto;
-        padding: 0;
+        padding: 0; 
         justify-content: center;
     }
     .paraformulaire {
@@ -416,10 +411,7 @@ footer {
     .button {
         width: 100%;
         font-size: 20px;
-        transform: translate(50%, 50%);
-        margin: top 50px, auto;
     }
-
     .section-formulaire h2{
         width: 500px;
     }
