@@ -230,8 +230,13 @@ body {
     padding: 0;
 }
 .paraformulaire {
-    margin:20px;
-    margin-left: 10px;
+    margin: 20px auto;
+    width: 220px;
+}
+
+.section-formulaire h2{
+    width: 220px;
+    margin: auto;
 }
 .section-formualire {
     width: 900px;
@@ -240,22 +245,26 @@ body {
     padding: 0;
 }
 .formulaire {
-    margin: 40px;
-    margin-left: 10px;
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
 }
 .itemformulaire {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 10px;
+
+
 }
 .itemformulaire input {
     border-radius: 5px;
 }
-.buttonsend {
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    
+
+label{
+    display: none;
+}
+button{
+    margin: 30px auto;
+    text-align: center;
 }
 
 .titre {
@@ -327,7 +336,7 @@ footer {
         position: absolute;
     }
     .paraformulaire {
-        width: 300px;
+        width: 220px;
     }
     .section-formulaire {
         width: 350px;
@@ -344,17 +353,22 @@ footer {
          margin-top: 20px;
      }
      .itemformulaire {
-        width:400px;
+        width:225px;
     }
-    .buttonsend {
-        width: 100px;
-        display: flex;
 
+    label{
+        display: block;
+        margin-bottom: 5px;
     }
+
     .button {
-        width: 100%;
         font-size: 20px; 
         transform: translate(50%,50%)
+        margin: 30px auto;
+     }
+
+     .section-formulaire h2{
+        margin: auto;
      }
 
 
@@ -377,8 +391,15 @@ footer {
         letter-spacing: 0.2em;
 
     }
+
+    input{
+        display: block;
+        text-align: left;
+    }
     .itemformulaire {
-        width:300px;
+        display: flex;
+        justify-content: space-between;
+        width:500px;
 
     }
     .section-formulaire {
@@ -388,7 +409,7 @@ footer {
         justify-content: center;
     }
     .paraformulaire {
-        width: 400px;
+        width: 500px;
     }
     .buttonsend {
         width: 100px;
@@ -398,7 +419,11 @@ footer {
     .button {
         width: 100%;
         font-size: 20px;
-        transform: translate(50%, 50%)
-        
+        transform: translate(50%, 50%);
+        margin: top 50px, auto;
+    }
+
+    .section-formulaire h2{
+        width: 500px;
     }
 }
