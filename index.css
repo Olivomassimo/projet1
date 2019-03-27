@@ -1,1 +1,418 @@
+<<<<<<< HEAD
 test
+=======
+body {
+    position: relative;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #f6f6f6;
+    padding-bottom: 1px;
+}
+
+h1, h2, h3, .titre{
+    font-family: 'Playfair Display', serif;
+    
+}
+.vaccance-image{ 
+    background-image: url(./images/awaii4.jpeg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contenu-vaccanse{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.prix-vaccance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #2d3436;
+}
+.bouton-vaccance{
+    display: block;
+    height: 100%;
+    padding: 20px 40px;
+    margin-right: 10px;
+    color: #dfe6e9;
+    background-color: #d63031;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0)
+    
+}
+
+.bouton-vaccance  {
+    text-decoration: none;
+    color: black;
+}
+
+.iconne-t{
+    fill: #2d3436;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+.prix-bouton{
+    padding-left: 10px;
+}
+
+
+.vignettes_global h3{
+    width: 100%;
+    max-width: 290px; 
+    border-radius: 10px;
+    height: 50px;
+    padding: 15px 5px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgba(116, 185, 255,1.0);
+    color: white;
+}
+/*distribution vignettes*/
+
+.vignettes_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.vignette_enfant{
+    position: relative;
+    width: 100%;
+    margin: 20px 10px 0 10px;
+    border-radius: 10px;
+    border: 0px solid black;
+    overflow: hidden;   
+    max-width: 300px; 
+    /*modification transition 23032019*/
+    transition-property: all;
+    transition-duration: 90ms;
+    transition-delay: 0s;
+}
+/*a supprimer*/
+.vignette_enfant:hover {
+    max-width: 305px;
+    margin: 7px 7px 0 8px;
+    box-shadow: 7px 7px 10px black;
+}
+
+
+.container_image{
+    width: 100%;
+    padding-bottom:134.285%;
+    position: relative;
+}
+
+.vignette_enfant img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.description_vignette{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(47, 54, 64, 0.7);
+    color: white;
+}
+
+.description_vignette p{
+    padding-left: 10px;
+}
+
+.description_vignette span{
+    font-size: 1.3em;
+}
+
+
+
+/* Css du formulaire */
+
+
+.menu {
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 20vh;
+    background-size: 100%;
+    background-position: 100%;
+    background-color: #2d3436;
+    box-sizing: border-box;
+
+
+    
+
+    
+}
+.itemmenu {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 17px;
+
+}
+.titre {
+    color: grey;
+}
+.itemmenu:hover {
+    transform: scale(1.3);
+    transform-style: preserve-3d;
+    transition-duration: 600ms;
+}
+.itemmenu:hover a {
+
+}
+.titre:hover {
+    transform: scale(1);
+}
+.itemmenu a {
+    text-decoration:none; color: white;
+    font-weight: bold;
+
+    
+}
+.titrereservation {
+    margin: 15px;
+    margin-left: 10px;
+    padding: 0;
+}
+.paraformulaire {
+    margin: 20px auto;
+    width: 220px;
+}
+
+.section-formulaire h2{
+    width: 220px;
+    margin: auto;
+}
+.section-formulaire {
+    max-width: 900px;
+    margin-top: 30px;
+
+}
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.itemformulaire {
+    margin-top: 10px;
+
+
+}
+.itemformulaire input {
+    border-radius: 5px;
+}
+
+label{
+    display: none;
+}
+button{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.titre {
+    font-size: 35px;
+}
+
+.containerfoot {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(45, 52, 54,1.0);
+    margin: 0;
+    margin-top: 20px;
+    height: 100px;
+    bottom: 0;
+    padding: 0;
+    text-align: center;
+    
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+}
+.sectionpage {
+    margin-bottom:120px;
+}
+.itemfooter {
+     width: 33%;
+
+}
+.photoinsta {
+    width: 100%
+
+}
+.itemfooter a {
+    text-decoration: none;
+    color: white;
+}
+.insta img{
+    height:25px;
+    width: 25px;
+}
+
+@media only screen and (min-width: 550px) {
+
+
+    .menu {
+        display: flex;
+        height: 17vh;
+        
+    
+    }
+    .itemmenu {
+        width: 25%;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .titre {
+        font-size: 30px;
+        margin-right: 70px;
+        
+    }
+
+    .paraformulaire {
+        width: 220px;
+    }
+    .section-formulaire {
+        width: 350px;
+        margin:auto;
+        padding: 0;
+        justify-content: center;
+    }
+     .titrereservation {
+         margin: 50px;
+         margin-left: 5px;
+     }
+     .containerfoot {
+         margin-top: 20px;
+         position: absolute;
+     }
+     .itemformulaire {
+        width:225px;
+    }
+
+    label{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .button {
+        font-size: 20px; 
+        margin: 30px auto;
+     }
+
+     .section-formulaire h2{
+        margin: auto;
+     }
+     
+        .vignettes_parent{
+            width: 100%;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+    
+        .vignette_enfant{
+            width: calc(50% - 20px);
+        }
+        .vignettes_global h3{
+            width: 100%;
+            max-width: 605px;
+            font-size: 2.0em;
+            height: 75px;
+            padding-top: 30px;
+        }
+    }
+
+  
+
+@media screen and (min-width: 900px) {
+    .menu {
+
+        height: 17vh;
+        background-size: 100%;
+        font-size: 35px;
+        
+    }
+    .titre {
+        font-weight: bold;
+        font-size: 50px;
+        margin-right: 200px;
+        margin-left: 40px;
+        letter-spacing: 0.2em;
+
+    }
+
+    input{
+        display: block;
+        text-align: left;
+    }
+    .itemformulaire {
+        display: flex;
+        justify-content: space-between;
+        width:500px;
+
+    }
+    .section-formulaire {
+        width: 500px;
+        margin: auto;
+        padding: 0; 
+        justify-content: center;
+    }
+    .paraformulaire {
+        width: 500px;
+    }
+    .buttonsend {
+        width: 100px;
+        display: flex;
+
+    }
+    .button {
+        width: 100%;
+        font-size: 20px;
+    }
+    .section-formulaire h2{
+        width: 500px;
+    }
+    .vignette_enfant{
+        width:30%;
+    }
+    .vignettes_global h3{
+        width: 100%;
+        max-width: 928px;
+        height: 75px;
+        padding-top: 30px;
+        font-size: 2.0em;
+    }
+
+}
+>>>>>>> dev
